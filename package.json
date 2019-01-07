@@ -4,8 +4,11 @@
   "private": true,
   "scripts": {
     "build": "vue-cli-service build",
+    "qa": "vue-cli-service build --mode qa",
     "lint": "vue-cli-service lint",
-    "start": "vue-cli-service serve",
+    "start": "vue-cli-service serve --port 6001",
+    "start:qa": "FOO=BAR vue-cli-service serve --port 9001 --mode qa",
+    "server": "node server/app.js",
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
