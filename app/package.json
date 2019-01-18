@@ -1,0 +1,21 @@
+{
+  "name": "gundam-plutone",
+  "version": "0.1.0",
+  "private": true,
+  "keywords": [
+    "cloud",
+    "management"
+  ],
+  "description": "A cloud management for Pepper",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "koa": "^2.6.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0"
+  },
+  "author": "SBRC-FE",
+  "license": "ISC"
+}
